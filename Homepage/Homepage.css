@@ -1,0 +1,109 @@
+body{
+    background-image: url("https://i.pinimg.com/564x/34/23/97/342397d2acb644d45690553468f257d2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; 
+
+}
+
+.header {
+    background-color: transparent;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 100px;
+    margin-top: 20px;
+    /* font-size: larger; */
+}
+
+h1 {
+    margin: 0;
+    font-size: 60px;
+    font-weight: 700;
+    background: linear-gradient(to right, #ffa17f, #00223e);
+ -webkit-background-clip: text; 
+ color: transparent;
+ -webkit-text-stroke: 1.05px #000000; /* Width and color of the stroke */
+ padding: 70px;
+}
+
+
+
+
+.frontBtns{
+    padding-top: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+
+.frontPageBtns{
+
+    width: 230px;
+    height: 50px;
+    margin: 15px;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+}
+
+
+
+#Enter{
+    cursor: pointer;
+    background: transparent;
+    opacity: 0.8;
+    background: linear-gradient(0deg, rgb(26, 18, 39) 0%, rgb(162, 129, 66) 100%);
+    border: none;
+}
+
+#Enter:before {
+    height: 0%;
+    width: 2px;
+  }
+
+#Enter:hover {
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+                -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+      inset -4px -4px 6px 0 rgba(255,255,255,.2),
+      inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+  }
+
+#about{
+    cursor: pointer;
+    background: transparent;
+    opacity: 0.8;
+    background: linear-gradient(0deg, rgb(26, 18, 39) 0%, rgb(162, 129, 66) 100%);
+    border: none;
+}
+
+#about:before {
+    height: 0%;
+    width: 2px;
+  }
+
+#about:hover {
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+                -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+      inset -4px -4px 6px 0 rgba(255,255,255,.2),
+      inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+  }
+
