@@ -1,9 +1,8 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #282c34;
-  background-image: url("https://i.pinimg.com/564x/ed/bd/6d/edbd6d6718276705bcc9eec0f6b2e31f.jpg");
-  background-repeat: no-repeat;
+  background-image: url("https://i.pinimg.com/564x/34/23/97/342397d2acb644d45690553468f257d2.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
   text-align: center;
   margin: 0;
   padding: 0;
@@ -52,9 +51,9 @@ body {
   background: linear-gradient(45deg, #335c67, #540b0e);
   -webkit-background-clip: text;
   background-clip: text;
-  color: transparent; /* Set text color to transparent to reveal the gradient background */
-  font-size: 20px; /* Set the font size as needed */
-  font-weight: bold; /* Adjust font weight as needed */
+  color: transparent; 
+  font-size: 20px;
+  font-weight: bold; 
 }
 
 .game-poster p {
@@ -67,18 +66,17 @@ body {
   margin-bottom: 10px;
   display: block;
   padding: 10px;
-  background: linear-gradient(45deg, #550a10, #242423);
-  color: rgb(255, 255, 255);
-  text-decoration: none;
+  color: #c28760;
+  text-decoration: underline;
   border-radius: 10px;
 }
 
 .game-poster:nth-child(odd) {
-  background: linear-gradient(45deg, #ffffff, #080f18);
+  background: linear-gradient(45deg, #ffffff, #aa9f69);
 }
 
 .game-poster:nth-child(even) {
-  background: linear-gradient(75deg, #ffffff, #080f18);
+  background: linear-gradient(75deg, #ffffff, #d89a6e);
 }
 
 h4 {
@@ -92,10 +90,12 @@ h4 {
 }
 
 #title {
-  background-color: #2f2121;
   width: 600px;
   border-radius: 20px;
   padding: 10px;
-  font-size: 45px;
-  color: linear-gradient(45deg);
+  font-size: 65px;
+  background: linear-gradient(to right, #ffa17f, #00223e);
+  -webkit-background-clip: text; 
+  color: transparent;
+  -webkit-text-stroke: 1.05px #000000
 }
