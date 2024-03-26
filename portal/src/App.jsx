@@ -7,8 +7,8 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Homepage/>} />
-        <Route path="/mainpage" element={<Mainpage/>} />
+        <Route path="/Game-Portal" element={<Homepage/>} />
+        <Route path="/Game-Portal/mainpage" element={<Mainpage/>} />
         </Routes>
     </Router>
   );

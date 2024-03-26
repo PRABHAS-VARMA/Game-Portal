@@ -10,7 +10,7 @@ function Homepage() {
       </div>
 
       <div className="frontBtns">
-      <Link to="/mainpage"> 
+      <Link to="/Game-Portal/mainpage"> 
           <button className="frontPageBtns" id="Enter">Enter</button>
           </Link>
       </div>
